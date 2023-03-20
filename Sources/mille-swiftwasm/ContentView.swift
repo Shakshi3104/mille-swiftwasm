@@ -171,7 +171,9 @@ struct ContentView: View {
                     Text("Tokamak")
                         .foregroundColor(accentColor)
                 }
+                
                 Text("and")
+                
                 Link(destination: URL(string: "https://github.com/swiftwasm")!) {
                     Text("SwiftWasm")
                         .foregroundColor(accentColor)
@@ -181,5 +183,5 @@ struct ContentView: View {
             .foregroundColor(.secondary)
             .padding(.vertical, 10)
         }
-        }
+    }
 }
