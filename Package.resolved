@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "JavaScriptKit",
+        "repositoryURL": "https://github.com/swiftwasm/JavaScriptKit.git",
+        "state": {
+          "branch": null,
+          "revision": "096584bb6959f16d97daf3ebf52039f98c36fdbf",
+          "version": "0.18.0"
+        }
+      },
+      {
+        "package": "OpenCombine",
+        "repositoryURL": "https://github.com/OpenCombine/OpenCombine.git",
+        "state": {
+          "branch": null,
+          "revision": "9cf67e363738dbab61b47fb5eaed78d3db31e5ee",
+          "version": "0.13.0"
+        }
+      },
+      {
+        "package": "OpenCombineJS",
+        "repositoryURL": "https://github.com/swiftwasm/OpenCombineJS.git",
+        "state": {
+          "branch": null,
+          "revision": "e574e418ba468ff5c2d4c499eb56f108aeb4d2ba",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "state": {
+          "branch": null,
+          "revision": "fee6933f37fde9a5e12a1e4aeaa93fe60116ff2a",
+          "version": "1.2.2"
+        }
+      },
+      {
+        "package": "Benchmark",
+        "repositoryURL": "https://github.com/google/swift-benchmark",
+        "state": {
+          "branch": null,
+          "revision": "8163295f6fe82356b0bcf8e1ab991645de17d096",
+          "version": "0.1.2"
+        }
+      },
+      {
+        "package": "Tokamak",
+        "repositoryURL": "https://github.com/TokamakUI/Tokamak",
+        "state": {
+          "branch": null,
+          "revision": "f1cbfcf073e2675566b0e9aa337441357d40d88a",
+          "version": "0.11.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
