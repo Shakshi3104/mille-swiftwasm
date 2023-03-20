@@ -3,7 +3,7 @@ import Foundation
 
 struct TokamakApp: App {
     var body: some Scene {
-        WindowGroup("Tokamak App") {
+        WindowGroup("Mille") {
             ContentView()
         }
     }
