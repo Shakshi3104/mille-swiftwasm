@@ -32,7 +32,7 @@ struct ContentView: View {
                     .frame(width: 32, height: 32)
                 
                 TextField("Hex color code", text: $colorCode, onCommit:  {
-                    accentColor = Color(UInt(colorCode, radix: 16) ?? 0x000000)
+                    accentColor = Color(UInt(colorCode, radix: 16) ?? 0x0885ff)
                 })
             }
             .padding(.vertical, 10)
