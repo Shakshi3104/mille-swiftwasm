@@ -6,12 +6,12 @@ on:
 
 jobs:
   swiftwasm_deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - uses: swiftwasm/swiftwasm-action@v5.5
+      - uses: swiftwasm/swiftwasm-action@v5.7
         with:
           shell-action: carton bundle
 
