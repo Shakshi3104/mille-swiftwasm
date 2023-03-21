@@ -35,6 +35,7 @@ struct ContentView: View {
                     accentColor = Color(UInt(colorCode, radix: 16) ?? 0x000000)
                 })
             }
+            .padding(.vertical, 10)
             
             VStack {
                 VStack {
@@ -57,7 +58,7 @@ struct ContentView: View {
                         )
                     }
                 }
-                .padding(.horizontal, 30)
+                .padding(.vertical, 20)
                 
                 VStack {
                     Text("Dark appearance")
@@ -79,7 +80,7 @@ struct ContentView: View {
                         )
                     }
                 }
-                .padding(.horizontal, 30)
+                .padding(.vertical, 20)
             }
             .padding()
             
