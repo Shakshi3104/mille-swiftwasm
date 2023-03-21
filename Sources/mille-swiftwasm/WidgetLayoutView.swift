@@ -51,13 +51,16 @@ struct WidgetLayoutView: View {
     let appearance: Appearance
     
     var body: some View {
-        ZStack(alignment: .leading) {
+        ZStack {
             // Background
             Rectangle()
                 .frame(width: 270, height: 220)
                 .foregroundColor(backgroundColor)
             
             HStack {
+                Spacer()
+                    .frame(width: 8)
+                
                 // Navigation
                 ZStack {
                     RoundedRectangle(cornerRadius: 5)
